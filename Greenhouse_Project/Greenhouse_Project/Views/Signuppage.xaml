@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Greenhouse_Project.Views.Signuppage"
+             BackgroundColor="BurlyWood"
+             BackgroundImageSource="field.jpg">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            
+                <Label Text="Signup" HorizontalTextAlignment="Center" FontSize="Large"></Label>
+           
+            <StackLayout Orientation="Vertical" VerticalOptions="Center">
+                <Label Text="Email" TextColor="Brown" FontSize="Body" FontAttributes="Bold"></Label>
+                <Entry x:Name="useremail" Placeholder="Enter Email"></Entry>
+                <Label Text="Username" TextColor="Brown" FontSize="Body" FontAttributes="Bold"></Label>
+                <Entry x:Name="signup_u_entry" Placeholder="Username"></Entry>
+                <Label Text="Password" TextColor="Brown" FontSize="Body" FontAttributes="Bold"></Label>
+                <Entry x:Name="signup_p_entry" Placeholder="Password" IsPassword="True"></Entry>
+                <Label Text="Confirm Password" TextColor="Brown" FontSize="Body" FontAttributes="Bold"></Label>
+                <Entry x:Name="signup_c_entry" Placeholder="Confirm Password" IsPassword="True"></Entry>
+                <Button x:Name="Signup_button" Text="Signup" Clicked="Signup_button_Clicked" BackgroundColor="Transparent" FontAttributes="Bold"></Button>
+                <Button x:Name="backtohome" Text="Return to Login" Clicked="backtohome_Clicked" BackgroundColor="Transparent"></Button>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

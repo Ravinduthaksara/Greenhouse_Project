@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Greenhouse_Project.Views.Loginpage"
+             BackgroundColor="BurlyWood"
+             BackgroundImageSource="Tracktor.jpg">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout HorizontalOptions="Center" VerticalOptions="Start">
+                <Label Text="Login" HorizontalTextAlignment="Center" FontSize="Large" VerticalOptions="StartAndExpand"></Label>
+            </StackLayout>
+            <StackLayout Spacing="12">
+                <Label Text="Enter Email"></Label>
+                <Entry x:Name="uemail" Placeholder="Email"></Entry>
+                <Label Text="Enter Password"></Label>
+                <Entry x:Name="upassword" Placeholder="Password" IsPassword="True"></Entry>
+            </StackLayout>
+            
+            <Button x:Name="loginbutton" 
+                    Text="Login" 
+                    Clicked="loginbutton_Clicked" 
+                    VerticalOptions="EndAndExpand"
+                    Margin="50"
+                    BorderColor="Yellow"
+                    BorderWidth="2"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

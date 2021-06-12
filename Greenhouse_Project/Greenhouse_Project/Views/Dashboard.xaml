@@ -1,0 +1,96 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:gauge="clr-namespace:Syncfusion.SfGauge.XForms;assembly=Syncfusion.SfGauge.XForms" 
+             x:Class="Greenhouse_Project.Views.Dashboard">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            
+            <StackLayout Orientation="Horizontal">
+                <Grid>
+                    <gauge:SfCircularGauge>
+                        <gauge:SfCircularGauge.Scales>
+                            <gauge:Scale StartValue="0" EndValue="70">
+                                <gauge:Scale.Ranges>
+                                    <gauge:Range StartValue="0" EndValue="35" Color="Green"></gauge:Range>
+                                    <gauge:Range StartValue="35" EndValue="50" Color="Orange"></gauge:Range>
+                                    <gauge:Range StartValue="50" EndValue="70" Color="Red"></gauge:Range>
+                                </gauge:Scale.Ranges>
+                                <gauge:Scale.Pointers>
+                                    <gauge:NeedlePointer Color="Red" Value="29"/>
+                                </gauge:Scale.Pointers>
+                            </gauge:Scale>
+                        </gauge:SfCircularGauge.Scales>
+                        <gauge:SfCircularGauge.Headers>
+                            <gauge:Header Text="Temprature" ForegroundColor="Black"/>
+                        </gauge:SfCircularGauge.Headers>
+                    </gauge:SfCircularGauge>
+
+                </Grid>
+                
+                <Grid>
+                    <gauge:SfCircularGauge>
+                        <gauge:SfCircularGauge.Scales>
+                            <gauge:Scale StartValue="0" EndValue="100">
+                                <gauge:Scale.Ranges>
+                                    <gauge:Range StartValue="0" EndValue="35" Color="Green"></gauge:Range>
+                                    <gauge:Range StartValue="35" EndValue="50" Color="Orange"></gauge:Range>
+                                    <gauge:Range StartValue="50" EndValue="70" Color="Red"></gauge:Range>
+                                </gauge:Scale.Ranges>
+                                <gauge:Scale.Pointers>
+                                    <gauge:NeedlePointer Value="80"/>
+                                </gauge:Scale.Pointers>
+                            </gauge:Scale>
+                        </gauge:SfCircularGauge.Scales>
+                        <gauge:SfCircularGauge.Headers>
+                            <gauge:Header Text="Humidity" ForegroundColor="Black"/>
+                        </gauge:SfCircularGauge.Headers>
+                    </gauge:SfCircularGauge>
+                </Grid>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Grid>
+                    <gauge:SfCircularGauge>
+                        <gauge:SfCircularGauge.Scales>
+                            <gauge:Scale StartValue="0" EndValue="70">
+                                <gauge:Scale.Ranges>
+                                    <gauge:Range StartValue="0" EndValue="35" Color="Green"></gauge:Range>
+                                    <gauge:Range StartValue="35" EndValue="50" Color="Orange"></gauge:Range>
+                                    <gauge:Range StartValue="50" EndValue="70" Color="Red"></gauge:Range>
+                                </gauge:Scale.Ranges>
+                                <gauge:Scale.Pointers>
+                                    <gauge:NeedlePointer Value="55"/>
+                                </gauge:Scale.Pointers>
+                            </gauge:Scale>
+                        </gauge:SfCircularGauge.Scales>
+                        <gauge:SfCircularGauge.Headers>
+                            <gauge:Header Text="LightLevel" ForegroundColor="Black"/>
+                        </gauge:SfCircularGauge.Headers>
+                    </gauge:SfCircularGauge>
+                </Grid>
+                <Grid>
+                    <gauge:SfCircularGauge>
+                        <gauge:SfCircularGauge.Scales>
+                            <gauge:Scale >
+                                <gauge:Scale.Ranges>
+                                    <gauge:Range StartValue="0" EndValue="500" Color="Green"></gauge:Range>
+                                    <gauge:Range StartValue="500" EndValue="750" Color="Orange"></gauge:Range>
+                                    <gauge:Range StartValue="750" EndValue="1024" Color="Red"></gauge:Range>
+                                </gauge:Scale.Ranges>
+                                <gauge:Scale.Pointers>
+                                    <gauge:NeedlePointer x:Name="Waterlevel" Value="625"/>
+                                </gauge:Scale.Pointers>
+                            </gauge:Scale>
+                        </gauge:SfCircularGauge.Scales>
+                        <gauge:SfCircularGauge.Headers>
+                            <gauge:Header Text="WaterLevel" ForegroundColor="Black"/>
+                        </gauge:SfCircularGauge.Headers>
+                    </gauge:SfCircularGauge>
+                </Grid>
+            </StackLayout>
+            <Button x:Name="refreshbutton" Text="Refresh" Clicked="refreshbutton_Clicked"></Button>
+            <Button x:Name="controllerbutton" Text="Go to Controller" Clicked="controllerbutton_Clicked"></Button>
+            <Button x:Name="Logoutbutton" Text="Logout" Clicked="Logoutbutton_Clicked"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

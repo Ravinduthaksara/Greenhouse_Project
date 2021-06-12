@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Greenhouse_Project.Views.Controller_page">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <StackLayout>
+                <Image x:Name="lightimage" Source="onbulb.png" WidthRequest="150" HeightRequest="150"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="light_on" Text="Light On"  Clicked="light_on_Clicked"></Button>
+                    <Button x:Name="light_off" Text="Light Off" Clicked="light_off_Clicked"></Button>
+                </StackLayout>
+               
+            </StackLayout>
+            <StackLayout>
+                <Image Source="fan.png" WidthRequest="150" HeightRequest="150"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="fan_on" Text="Fan On" Clicked="fan_on_Clicked" ></Button>
+                    <Button x:Name="fan_off" Text="Fan Off" Clicked="fan_off_Clicked" ></Button>
+                </StackLayout>
+            </StackLayout>
+            <StackLayout>
+                <Image Source="water.png" WidthRequest="150" HeightRequest="150"/>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                    <Button x:Name="pump_on" Text="Pump On" Clicked="pump_on_Clicked"></Button>
+                    <Button x:Name="pump_off" Text="Pump Off"  Clicked="pump_off_Clicked"></Button>
+                </StackLayout>
+                <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="35" BackgroundColor="SaddleBrown" Padding="12">
+                    
+                    <Label x:Name="automanualconfig" Text="Change Auto/Manual Modes"></Label>
+                    <Switch x:Name="Auto_manual_switch" Toggled="Switch_Toggled" OnColor="BurlyWood" ThumbColor="BlanchedAlmond"></Switch>
+
+                </StackLayout>
+               
+            </StackLayout>
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

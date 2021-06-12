@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Greenhouse_Project.Views.Homepage"
+             BackgroundColor="BurlyWood">
+    <ContentPage.Content>
+        <StackLayout Orientation="Vertical">
+            <Label Text="Welcome To DigiAgri" Padding="12,12,12,12" HorizontalTextAlignment="Center" FontSize="Large"/>
+            <StackLayout HorizontalOptions="Center" Margin="100">
+                <Button Text="Login" x:Name="loginbutton" Clicked="loginbutton_Clicked"></Button>
+                <Button Text="Signup" x:Name="signupbutton" Clicked="signupbutton_Clicked"></Button>
+            </StackLayout>
+            <StackLayout HorizontalOptions="Center">
+                <Image Source="digiagri.png" WidthRequest="200" HeightRequest="200" />
+            </StackLayout>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
