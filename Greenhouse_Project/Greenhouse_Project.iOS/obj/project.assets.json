@@ -1906,7 +1906,8 @@
   },
   "packageFolders": {
     "C:\\Users\\DELL\\.nuget\\packages\\": {},
-    "E:\\Microsoft\\Xamarin\\NuGet\\": {}
+    "E:\\programs\\Visual studio\\NuGetPackages": {},
+    "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1919,10 +1920,12 @@
       "projectStyle": "PackageReference",
       "skipContentFileWrite": true,
       "fallbackFolders": [
-        "E:\\Microsoft\\Xamarin\\NuGet\\"
+        "E:\\programs\\Visual studio\\NuGetPackages",
+        "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
         "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "SWEZZqUb8NQW1s/SQcjSyvDwNvdhZSIH/U2VGHMOlPGV2f/qCtDZvx1jlTiu3odZcofGonoOVHLkKz6rMjlITA==",
+  "dgSpecHash": "AEy2mdQ8ikSi5+wUMq2Xy0c0cUIzB79u4Lbm/NuVIOuHBwmntDJ78HEJB/E6wDS99zYQCR90FGRs1LyOCn1jmA==",
   "success": true,
   "projectFilePath": "D:\\Programs\\Visual Studio\\Greenhouse_Project\\Greenhouse_Project\\Greenhouse_Project.Android\\Greenhouse_Project.Android.csproj",
   "expectedPackageFiles": [
@@ -56,7 +56,7 @@
     "C:\\Users\\DELL\\.nuget\\packages\\xamarin.androidx.vectordrawable.animated\\1.1.0.1\\xamarin.androidx.vectordrawable.animated.1.1.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\xamarin.androidx.versionedparcelable\\1.1.0.1\\xamarin.androidx.versionedparcelable.1.1.0.1.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\xamarin.androidx.viewpager\\1.0.0.1\\xamarin.androidx.viewpager.1.0.0.1.nupkg.sha512",
-    "E:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Users\\DELL\\.nuget\\packages\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\xamarin.forms\\4.8.0.1687\\xamarin.forms.4.8.0.1687.nupkg.sha512",
     "C:\\Users\\DELL\\.nuget\\packages\\xamarin.google.android.material\\1.0.0.1\\xamarin.google.android.material.1.0.0.1.nupkg.sha512"
   ],

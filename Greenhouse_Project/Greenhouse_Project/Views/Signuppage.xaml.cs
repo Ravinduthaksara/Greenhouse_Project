@@ -15,7 +15,7 @@ namespace Greenhouse_Project.Views
     [XamlCompilation(XamlCompilationOptions.Compile)]
     public partial class Signuppage : ContentPage
     {
-        private string WebAPIkey = "AIzaSyBFr3I-LUw9GFRjYoyPW8KhT7Y080eJ3F8";
+        private string WebAPIkey = "Your API key";
         public Signuppage()
         {
             InitializeComponent();
@@ -51,7 +51,7 @@ namespace Greenhouse_Project.Views
                     string getToken = auth.FirebaseToken;
                     await App.Current.MainPage.DisplayAlert("Sign in Notification", "Account Created Succesfully", "Ok");
                 }
-                catch
+                catch(Exception)
                 {
                     await App.Current.MainPage.DisplayAlert("Sign in Notification", "Account Not Created Try again", "Ok");
                 }

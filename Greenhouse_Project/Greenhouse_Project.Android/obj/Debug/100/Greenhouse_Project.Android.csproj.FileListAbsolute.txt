@@ -10,7 +10,6 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\MonoAndroid,Version=v10.0.AssemblyAttributes.cs
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\build.props
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\adb.props
-D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\Greenhouse_Project.Android.csprojAssemblyReference.cache
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\stamp\_BuildLibraryImportsCache.stamp
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\res.flag
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\lp\63\jl\files.cache
@@ -602,3 +601,4 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\android\assets\System.Runtime.InteropServices.WindowsRuntime.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\res\drawable\fan.png
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\res\drawable\water.png
+D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.Android\obj\Debug\100\Greenhouse_Project.Android.csproj.AssemblyReference.cache

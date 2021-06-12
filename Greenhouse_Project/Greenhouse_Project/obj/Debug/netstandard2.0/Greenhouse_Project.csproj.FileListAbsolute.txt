@@ -2,7 +2,6 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\bin\Debug\netstandard2.0\Greenhouse_Project.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\bin\Debug\netstandard2.0\ref\Greenhouse_Project.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\bin\Debug\netstandard2.0\Greenhouse_Project.pdb
-D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\Greenhouse_Project.csprojAssemblyReference.cache
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\App.xaml.g.cs
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\MainPage.xaml.g.cs
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\Views\Dashboard.xaml.g.cs
@@ -17,3 +16,4 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\ref\Greenhouse_Project.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\Greenhouse_Project.pdb
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\Views\Controller_page.xaml.g.cs
+D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project\obj\Debug\netstandard2.0\Greenhouse_Project.csproj.AssemblyReference.cache

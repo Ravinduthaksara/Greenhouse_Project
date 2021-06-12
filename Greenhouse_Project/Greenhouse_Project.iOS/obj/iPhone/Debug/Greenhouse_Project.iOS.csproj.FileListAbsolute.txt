@@ -59,7 +59,6 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\coremlc\_PartialAppManifest.items
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\coremlc\_BundleResourceWithLogicalName.items
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\optimized\
-D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\Greenhouse_Project.iOS.csprojAssemblyReference.cache
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\Greenhouse_Project.iOS.csproj.CoreCompileInputs.cache
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\Greenhouse_Project.iOS.csproj.CopyComplete
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\Greenhouse_Project.iOS.exe
@@ -67,3 +66,4 @@ D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Proje
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\bin\iPhone\Debug\Firebase.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\bin\iPhone\Debug\LiteDB.dll
 D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\bin\iPhone\Debug\System.Reactive.dll
+D:\Programs\Visual Studio\Greenhouse_Project\Greenhouse_Project\Greenhouse_Project.iOS\obj\iPhone\Debug\Greenhouse_Project.iOS.csproj.AssemblyReference.cache
